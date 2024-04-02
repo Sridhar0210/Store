@@ -1,0 +1,87 @@
+name: e_commerce_application
+description: "e_commerce application task and practice"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+#----------------------packages----------------------#
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+  # Utility Packages
+  http: ^1.1.2
+  intl: ^0.18.1
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  flutter_native_splash: ^2.3.10
+  smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
+  dots_indicator: ^3.0.0
+  readmore: ^2.2.0
+  flutter_rating_bar: ^4.0.1
+
+  # firebase
+  firebase_core: ^2.27.0
+
+
+  # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+
+  # State Management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+#---------------------- ./ packages Ends ----------------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  #----------------------Local Assets------------------------------#
+  assets:
+    - assets/images/boarding_images/
+    - assets/images/authentication_images/
+    - assets/images/application_images/
+    - assets/images/product_images/
+    - assets/logos/
+    - assets/icons/category/
+
+  #----------------------Local Fonts------------------------------#
+
+  fonts:
+    - family: Poppins,
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 300
+    - family: OpenSans,
+      fonts:
+        - asset: assets/fonts/OpenSans.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-Italic.ttf
+          style: italic
+    - family: DancingScript,
+      fonts:
+        - asset: assets/fonts/DancingScript.ttf
+          weight: 300
+    - family: KodeMono,
+      fonts:
+        - asset: assets/fonts/KodeMono.ttf
+          weight: 300

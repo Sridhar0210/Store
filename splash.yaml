@@ -1,0 +1,13 @@
+flutter_native_splash:
+   color: "#ffffff"
+   image: assets/logos/NITHI_lightSplashLogo.png
+   color_dark: "##000000"
+   image_dark: assets/logos/NITHI_darkSplashLogo.png
+
+   android_12:
+      color: "##FFFFFF"
+      color_dark: "##000000"
+      image: assets/logos/NITHI_lightSplashLogo.png
+      image_dark: assets/logos/NITHI_darkSplashLogo.png
+
+   web: false
